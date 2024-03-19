@@ -20,7 +20,7 @@ def update_historical_data(new_challenger, new_grandmaster):
         json.dump(data, file)
 
 def fetch_and_update_data():
-    api_key = 'RGAPI-5a9bf1ee-4416-4c5c-9402-39456dfda31a'
+    api_key = 'XXXX-XXXX-XXXX-XXXX' # Replace with a valid Riot Developer API
     region = 'na1'
     cutoffs = get_league_data(api_key, region)
     
@@ -62,7 +62,7 @@ def get_league_data(api_key, region='na1'):
 
 @app.route('/')
 def home():
-    api_key = 'RGAPI-5a9bf1ee-4416-4c5c-9402-39456dfda31a'
+    api_key = 'XXXX-XXXX-XXXX-XXXX' # Replace with a valid Riot Developer API
     region = 'na1' 
     cutoffs = get_league_data(api_key, region)
     
