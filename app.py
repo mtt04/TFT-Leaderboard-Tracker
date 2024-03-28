@@ -69,7 +69,7 @@ def get_tier_data(api_key, region='na1', tier='challenger'):
 
 @app.route('/')
 def home():
-    api_key = 'RGAPI-70a43f21-2961-483a-93a6-a2626550801a' # Replace with a valid Riot Developer API
+    api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXX' # Replace with a valid Riot Developer API
     region = 'na1' 
     cutoffs = get_league_data(api_key, region)
     challenger_list = get_tier_data(api_key, region, 'challenger')
