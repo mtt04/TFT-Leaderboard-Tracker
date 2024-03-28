@@ -22,21 +22,21 @@ Ensure you have Python installed on your system. Clone or download this reposito
 
 1. **Clone the repository:**
 
-git clone https://github.com/mtt04/TFT-Leaderboard-Tracker.git
+```git clone https://github.com/mtt04/TFT-Leaderboard-Tracker.git```
 
 2. **Navigate to the project directory:**
 
-cd TFT-Leaderboard-Tracker
+```cd TFT-Leaderboard-Tracker```
 
 3. **Install the required packages:**
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 4. **Add your Riot Games API key:** Open the `app.py` file (or the relevant file if your main Flask file has a different name) and replace the placeholder for the API key with your own Riot Games API key.
 
 5. **Run the Flask application:**
 
-python app.py
+```python app.py```
 
 6. **Access the web application:** Open your web browser and navigate to `http://127.0.0.1:5000/` to view the TFT Leaderboard Tracker.
 
