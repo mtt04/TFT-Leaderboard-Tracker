@@ -12,6 +12,25 @@
     <p>Challenger: <strong>{{ cutoffs.challenger }}</strong> LP</p>
     <p>Grandmaster: <strong>{{ cutoffs.grandmaster }}</strong> LP</p>
 
+    <div class="leaderboard-container">
+        <div class="challenger-list">
+            <h2>Challenger</h2>
+            <ul>
+                {% for name, lp in challenger_list %}
+                <li>{{ name }} - {{ lp }} LP</li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="grandmaster-list">
+            <h2>Grandmaster</h2>
+            <ul>
+                {% for name, lp in grandmaster_list %}
+                <li>{{ name }} - {{ lp }} LP</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
     <h2>Historical Cutoffs</h2>
     <canvas id="cutoffChart"></canvas>
     <script>
